@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-container {
+    background: #FFF8F3;
+    background-image: url(portfolio-resources/images/header_bg.png), url(portfolio-resources/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+}
+/*nav-bar styling*/
+.text-primary {
+    color: #FD6E0A;
+}
+.btn-primary {
+    border-radius: 5px;
+    border: none;
+    background: #FD6E0A;
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 18px 36px;
+}
+.header h1 {
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 51px 226px;
+}
+.nav-list ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-list ul li {
+    margin-left: 36px;
+}
+/* bannar styling */
+.bannar {
+    padding: 0 226px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannar-text {
+    margin-right: 150px;
+}
+.bannar-text .sub-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    /* Dark 02 */
+    color: #474747;
+}
+.bannar-text .bannar-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 116px;
+    /* Dark 01 */
+    color: #181818;
+}
+.bannr-paragraph {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+/* main styling */
+section {
+    margin: 130px 213px;
+}
+.section-container {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 156px;
+}
+.section-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    /* identical to box height */
+    
+    text-align: center;
+    margin-bottom: 20px;
+}
+.description-para {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    
+    text-align: center;
+    
+    /* Dark 03 */
+    
+    color: #757575;
+    margin: 30px 0;
+}
+.info-heading {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    
+    text-align: center;
+    
+    /* Dark 03 */
+    
+    color: #757575;
+    
+}
+.info-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 150% */
+    
+    text-align: center;
+    
+    /* Dark 02 */
+    
+    color: #474747;
+}
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+/* skills styling */
+.do-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    
+    text-align: center;
+    
+    /* Dark 03 */
+    
+    color: #757575;
+}
+/* skills styling */
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.skill {
+    margin-top: 40px;
+    width: 267px;
+    height: 377px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-right: 25px;
+}
+.skill > img {
+    width: 44px;
+    height: 44px;
+}
+.skill-title {
+    margin: px 0px;
+}
+/* cv section */
+.cv {
+    margin-top: 30px;
+    width: 500px;
+    border-bottom: 2px solid gray;
+}
+.cv-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cv-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+
+
+    /* Dark 02 */
+
+    color: #474747;
+    margin-bottom: 30px;
+}
+.cv-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    
+    /* Dark 03 */
+    
+    color: #757575;
+    margin-bottom: 10px;
+}
+.cv-education {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    
+    /* Dark 03 */
+    
+    color: #757575;
+    margin-bottom: 20px;
+} 
+.cv-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    
+    /* Dark 03 */
+    
+    color: #757575;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 0 20px 0 0;
+}
+
